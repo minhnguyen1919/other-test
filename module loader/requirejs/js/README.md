@@ -1,0 +1,4 @@
+#Using require() vs. define() [link](https://www.sitepoint.com/understanding-requirejs-for-effective-javascript-module-loading/)
+
+
+Earlier I mentioned that we can use both require() and define() to load dependencies. Understanding the difference between those two functions is essential to managing dependencies. The require() function is used to run immediate functionalities, while define() is used to define modules for use in multiple locations. In our example we need to run the purchaseProduct() function immediately. So, require() was used inside main.js. However, the other files are reusable modules and therefore use define().
